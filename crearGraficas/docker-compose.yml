@@ -1,0 +1,7 @@
+services:
+  creargraficas-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/crearGraficas
